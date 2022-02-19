@@ -1074,8 +1074,8 @@ header ul li a.active:before
         flex-direction: column-reverse;
     }
     .content .bannerImg{
-        width: 100%;
-        height: 40vh;
+        width: 75%;
+        height: 30vh;
         margin: 150px 0 40px;
     }
 
