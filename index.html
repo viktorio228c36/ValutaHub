@@ -193,7 +193,33 @@
             <h5 class="tools__item-title">Быстро</h5>
           </div>
         </div>
-        
+
+        <!-- <div class="popup" id="popup-1">
+          <div class="overlay"></div>
+          <div class="popup__content">
+            <div class="close-btn" onclick="togglePopup()">&times;</div>
+            <h1 class="popup__title">Звоните</h1>
+            <div class="tel__inner">
+              <li><a class="popup__link" href="tel:+38(095)209-123-0">(095) 209 12 30</a></li>
+              <li><a class="popup__link" href="tel:+38(068)888-666-0">(068) 888 66 60</a></li>
+              <li><a class="popup__link" href="tel:+38(093)262-927-0">(093) 262 92 70</a></li>
+            </div>
+            <h1 class="popup__title popup__title--bottom">Мы в соц. сетях</h1>
+            <div class="icons popup__icons">
+              <ul class="sci">
+                <li><a href="viber://chat?number=380952091230" rel="nofollow"><img src="images/viber.jpg"></a></li>
+                <li><a href="https://t.me/banknotesbuy"><img src="images/telegram.png"></a></li>
+                <li><a
+                    href="https://wa.me/380952091230?text=Здравствуйте.%20Вопрос%20по%20поводу%20обмена%20валюты."><img
+                      src="images/whatsapp.png"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <button class="tools__link" onclick="togglePopup()">ЗАКАЗАТЬ ЗВОНОК</button> -->
+
+
       </div>
     </div>
   </section>
@@ -355,40 +381,63 @@
       </div>
     </div>
   </footer> 
+  <div class="navbar">
+    <div class="navbar__inner">
+      <div class="navbar__item">
+        <div class="icons__navbar">
+        <ul class="sci__navbar">
+
+          <li><a href="viber://chat?number=380952091230" rel="nofollow"><img src="images/viber.jpg"></a></li>
+          <li><a href="https://t.me/banknotesbuy"><img src="images/telegram.png"></a></li>
+          <li><a href="https://wa.me/380952091230?text=Здравствуйте.%20Вопрос%20по%20поводу%20обмена%20валюты."><img
+                src="images/whatsapp.png"></a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </div>
+  </div>
 
   <script type="text/javascript">
     var slideshow = document.getElementById('slideshow');
     var slides = slideshow.getElementsByTagName('img');
     var index = 0;
+   
 
     function nextSlide() {
       slides[index].classList.remove('active');
       index = (index + 1) % slides.length;
       slides[index].classList.add('active');
+      
     }
 
     function prevSlide() {
       slides[index].classList.remove('active');
       index = (index - 1 + slides.length) % slides.length;
       slides[index].classList.add('active');
+      
     }
 
 
     var slideshowText = document.getElementById('slideshowText');
     var slidesText = slideshowText.getElementsByTagName('div');
     var i = 0;
+    
 
     function nextSlideText() {
       slidesText[i].classList.remove('active');
       i = (i + 1) % slidesText.length;
       slidesText[i].classList.add('active');
+      
     }
 
     function prevSlideText() {
       slidesText[i].classList.remove('active');
       i = (i - 1 + slidesText.length) % slidesText.length;
       slidesText[i].classList.add('active');
+      
     }
+    
 
     document.addEventListener("mousemove", parallax);
     function parallax(e) {
