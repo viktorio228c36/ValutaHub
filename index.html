@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ValutaHub</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="images/logo.png" rel="shortcut icon" type="image/png">
+</head>
+
+<body>
+
+
+
+
+  <header class="header">
+
+    <a href="#" class="logo header__logo header__logo-img">Valuta<span> Hub</span> </a>
+    <ul>
+      <div class="tel__inner">
+        <li><a href="tel:+38(095)209-123-0">(095) 209 12 30</a></li>
+        <li><a href="tel:+38(068)888-666-0">(068) 888 66 60</a></li>
+        <li><a href="tel:+38(093)262-927-0">(093) 262 92 70</a></li>
+      </div>
+
+      <li class="header__threeLinks"><a href="#about" class="active">Главная</a></li>
+      <li class="header__threeLinks"><a href="#contacts">Контакты</a></li>
+      <li class="header__threeLinks"><a href="#places">Точки обмена</a></li>
+
+    </ul>
+  </header>
+
+
+
+  <div class="container container__top">
+    <div class="content">
+      <div class="bannerText" id="slideshowText">
+        <div class="active">
+          <h2 id="about">Обмен ветхой валюты</h2>
+          <p>
+
+            <br>Меняем валюты с любыми видами повреждений. <br>
+
+          </p>
+
+        </div>
+
+
+
+        <div>
+          <h2>Обмен устарелых валют<br></h2>
+          <p>
+            Обмен валют, вышедших из обихода.
+          </p>
+
+        </div>
+      </div>
+      <div class="bannerImg" id="slideshow">
+        <img src="images/main-valuta-1.png" class="active">
+        <img src="images/main-valuta-2.png">
+
+      </div>
+    </div>
+
+    <a class="social__a" href="#">Мы в соц. сетях</a>
+    <div class="icons">
+      <ul class="sci">
+
+        <li><a href="viber://chat?number=380952091230" rel="nofollow"><img src="images/viber.jpg"></a></li>
+        <li><a href="https://t.me/banknotesbuy"><img src="images/telegram.png"></a></li>
+        <li><a href="https://wa.me/380952091230?text=Здравствуйте.%20Вопрос%20по%20поводу%20обмена%20валюты."><img
+              src="images/whatsapp.png"></a>
+        </li>
+      </ul>
+      <div class="controls">
+        <div class="controls__inner">
+          <img src="images/left.png" class="controls__img" style="cursor: pointer;"
+            onclick="prevSlide();prevSlideText();">
+          <img src="images/right.png" class="controls__img" style="cursor: pointer;"
+            onclick="nextSlide();nextSlideText();">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <section class="blog">
+      <div class="blog__container">
+        <h3 class="blog__title title">Обмен ветхой валюты</h3>
+        <div class="slider">
+          <div class="slider__item">
+            <img class="slider__item-img" src="images/1.png" alt="blog images">
+            <a class="slider__item-title title" href="#">В краске</a>
+          </div>
+          <div class="slider__item">
+            <img class="slider__item-img" src="images/2.png" alt="blog images">
+            <a class="slider__item-title title" href="#">Затёртые</a>
+          </div>
+          <div class="slider__item">
+            <img class="slider__item-img" src="images/3.png" alt="blog images">
+            <a class="slider__item-title title" href="#">С печатями</a>
+          </div>
+          <div class="slider__item">
+            <img class="slider__item-img" src="images/4.png" alt="blog images">
+            <a class="slider__item-title title" href="#">Порисованные</a>
+          </div>
+          <div class="slider__item">
+            <img class="slider__item-img" src="images/5.png" alt="blog images">
+            <a class="slider__item-title title" href="#">В плесени</a>
+          </div>
+          <div class="slider__item">
+            <img class="slider__item-img" src="images/6.png" alt="blog images">
+            <h4 class="slider__item-title title" href="#">Горелые</a>
+          </div>
+          <div class="slider__item">
+            <img class="slider__item-img" src="images/7.png" alt="blog images">
+            <a class="slider__item-title title" href="#">Сгнившие</a>
+          </div>
+          <div class="slider__item">
+            <img class="slider__item-img" src="images/8.png" alt="blog images">
+            <a class="slider__item-title title" href="#">Постиранные</a>
+          </div>
+          <div class="slider__item">
+            <img class="slider__item-img" src="images/9.png" alt="blog images">
+            <a class="slider__item-title title" href="#">Погрызенные</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="container">
+    <section class="direction">
+      <div class="container">
+        <div class="direction__item">
+          <div class="direction__item-content">
+            <h3 class="direction__item-title title">Мы принимаем: </h3>
+            <p class="direction__item-text">- Старый доллар</p>
+            <p class="direction__item-text">- Старый фунт </p>
+            <p class="direction__item-text">- Старый франк </p>
+            <p class="direction__item-text">- Дойч марки </p>
+            <h6 class="direction__item-subtitle title">И много других</h6>
+          </div>
+          <img class="direction__item-img" src="images/blog-1.png" alt="Design Professionals images">
+        </div>
+
+
+
+
+        <div class="direction__item direction__item--2">
+          <img class="direction__item-img--2" src="images/blog-2.jpg" alt="Design Professionals images">
+          <div class="direction__item-content">
+            <h3 class="direction__item-title title">Старые монеты</h3>
+            <p class="direction__item-text">- Евро центы</p>
+            <p class="direction__item-text">- Фунты </p>
+            <p class="direction__item-text">- Доллар центы </p>
+            <p class="direction__item-text">- Франки </p>
+            <p class="direction__item-text">- Дойч марки </p>
+            <h6 class="direction__item-subtitle title">И много других</h6>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section class="tools">
+
+    <h3 class="blog__title title">
+      Наши преимущества
+    </h3>
+    <div class="tools__inner">
+      <div class="container">
+        <div class="tools__items">
+          <div class="tools__item">
+            <img class="tools__item-img" src="images/tools-1.svg" alt="tools img">
+            <h5 class="tools__item-title title">Комиссия от 3х %</h5>
+          </div>
+          <div class="tools__item">
+            <img class="tools__item-img" src="images/tools-2.svg" alt="tools img">
+            <h5 class="tools__item-title">Конфиденциально</h5>
+          </div>
+          <div class="tools__item">
+            <img class="tools__item-img" src="images/tools-3.svg" alt="tools img">
+            <h5 class="tools__item-title">Обратная связь</h5>
+          </div>
+          <div class="tools__item">
+            <img class="tools__item-img" src="images/tools-4.svg" alt="tools img">
+            <h5 class="tools__item-title">Быстро</h5>
+          </div>
+        </div>
+
+        <div class="popup" id="popup-1">
+          <div class="overlay"></div>
+          <div class="popup__content">
+            <div class="close-btn" onclick="togglePopup()">&times;</div>
+            <h1 class="popup__title">Звоните</h1>
+            <div class="tel__inner">
+              <li><a class="popup__link" href="tel:+38(095)209-123-0">(095) 209 12 30</a></li>
+              <li><a class="popup__link" href="tel:+38(068)888-666-0">(068) 888 66 60</a></li>
+              <li><a class="popup__link" href="tel:+38(093)262-927-0">(093) 262 92 70</a></li>
+            </div>
+            <h1 class="popup__title popup__title--bottom">Мы в соц. сетях</h1>
+            <div class="icons popup__icons">
+              <ul class="sci">
+                <li><a href="viber://chat?number=380952091230" rel="nofollow"><img src="images/viber.jpg"></a></li>
+                <li><a href="https://t.me/banknotesbuy"><img src="images/telegram.png"></a></li>
+                <li><a
+                    href="https://wa.me/380952091230?text=Здравствуйте.%20Вопрос%20по%20поводу%20обмена%20валюты."><img
+                      src="images/whatsapp.png"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <button class="tools__link" onclick="togglePopup()">ЗАКАЗАТЬ ЗВОНОК</button>
+
+
+      </div>
+    </div>
+  </section>
+  
+  <section class="works-path">
+    <div class="container">
+      <h3 class="works-path__title">
+        Как мы работаем
+      </h3>
+      <div class="works-path__items">
+        <div class="works-path__items-box">
+          <div class="works-path__item works-path__item--consultation">
+            <img class="works-path__item-img" src="images/1-tools2.svg" alt="icon">
+            <h6 class="works-path__item-title">Звонок нам</h6>
+            <p class="works-path__item-text">Вы с нами связываетесь по телефону или заказываете обратный звонок!</p>
+          </div>
+          <div class="works-path__item works-path__item--production">
+            <img class="works-path__item-img" src="images/3-tools2.svg" alt="icon">
+            <h6 class="works-path__item-title">Оцениваем купюру</h6>
+            <p class="works-path__item-text">Оцениваем Вашу купюру, профессиональная экспертиза Валюты!</p>
+          </div>
+        </div>
+        <div class="works-path__items-box--2">
+          <div class="works-path__item works-path__item--measuring">
+            <img class="works-path__item-img" src="images/2-tools2.svg" alt="icon">
+            <h6 class="works-path__item-title">Встреча</h6>
+            <p class="works-path__item-text">Договариваемся о личной встрече или в одном из наших отделений</p>
+          </div>
+          <div class="works-path__item works-path__item--negotiation">
+            <img class="works-path__item-img" src="images/4-tools2.svg" alt="icon">
+            <h6 class="works-path__item-title">Совершаем сделку</h6>
+            <p class="works-path__item-text">Совершаем сделку на очень выгодных условиях для обоих сторон.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="map">
+    <h3 class="blog__title">
+      Наши контакты
+    </h3>
+    <div class="map__inner">
+      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1qS9LiuPnhBz8OP9KI_92WfXb3Nfn8sWR&ehbc=2E312F"
+        width="100%" height="400">
+      </iframe>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__content">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__info">
+            <div class="footer__title--1">
+              <a href="#" class="footer__logo footer__logo-img">Valuta<span> Hub</span> </a>
+            </div>
+            <p class="footer__info-text">
+              Обмен ветхой валюты от 3% <br>
+              БЫСТРО И УДОБНО!
+            </p>
+            <a class="footer__info-email" href="mailto:Valutahub@gmail.com">
+              Valutahub@gmail.com
+            </a>
+
+          </div>
+
+
+
+          <ul class="footer__social">
+            <h6 class="footer__info-title" id="contacts">
+              Контакты
+            </h6>
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="tel:+38(095)209-123-0">(095) 209 12
+                30</a>
+            </li>
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="tel:+38(068)888-666-0">(068) 888 66
+                60</a>
+            </li>
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="tel:+38(093)262-927-0">(093) 262 92 70</a>
+            </li>
+            <li class="footer__social-item--2">
+              <a class="footer__social-link" href="#">Киев</a>
+            </li>
+
+            <li class="footer__social-item--2">
+              <p class="footer__social-link" href="#">м. Дружбы Народов</p>
+            </li>
+            <li class="footer__social-item--2">
+              <p class="footer__social-link" href="#">м. Дарница</p>
+            </li>
+            <li class="footer__social-item--2">
+              <p class="footer__social-link" href="#">м. Лукьяновка</p>
+            </li>
+            <li class="footer__social-item--2">
+              <p class="footer__social-link" href="#">м. Позняки</p>
+            </li>
+            <li class="footer__social-item--2">
+              <p class="footer__social-link" href="#">м. Житомирская</p>
+            </li>
+            <li class="footer__social-item--2">
+              <p class="footer__social-link" href="#">м. Харьковская</p>
+            </li>
+            <li class="footer__social-item--2">
+              <p class="footer__social-link" href="#">м. Олимпийская</p>
+            </li>
+            <li class="footer__social-item--2">
+              <p class="footer__social-link" href="#">м. Лесная</p>
+            </li>
+          
+
+
+
+          </ul>
+          <nav class="footer__menu">
+            <ul class="footer__menu-list">
+              <h6 class="footer__info-title" id="places">
+                Точки обмена
+              </h6>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">Киев (центр)</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">Днепр (центр)</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">Одесса (центр)</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">Николаев (центр)</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">Харьков (центр)
+                </a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">Мариуполь (центр)</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">Мелитополь (центр)</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">Запорожье (центр)</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">Львов (центр)</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="footer__copyright">
+      <div class="container">
+        <p> © 2022 Your Company. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer> 
+
+  <script type="text/javascript">
+    var slideshow = document.getElementById('slideshow');
+    var slides = slideshow.getElementsByTagName('img');
+    var index = 0;
+
+    function nextSlide() {
+      slides[index].classList.remove('active');
+      index = (index + 1) % slides.length;
+      slides[index].classList.add('active');
+    }
+
+    function prevSlide() {
+      slides[index].classList.remove('active');
+      index = (index - 1 + slides.length) % slides.length;
+      slides[index].classList.add('active');
+    }
+
+
+    var slideshowText = document.getElementById('slideshowText');
+    var slidesText = slideshowText.getElementsByTagName('div');
+    var i = 0;
+
+    function nextSlideText() {
+      slidesText[i].classList.remove('active');
+      i = (i + 1) % slidesText.length;
+      slidesText[i].classList.add('active');
+    }
+
+    function prevSlideText() {
+      slidesText[i].classList.remove('active');
+      i = (i - 1 + slidesText.length) % slidesText.length;
+      slidesText[i].classList.add('active');
+    }
+
+    document.addEventListener("mousemove", parallax);
+    function parallax(e) {
+      this.querySelectorAll('.layer').forEach(layer => {
+        const speed = layer.getAttribute('data-speed')
+
+        const x = (window.innerWidth - e.pageX * speed) / 95
+        const y = (window.innerHeight - e.pageY * speed) / 95
+
+        layer.style.transform = `translateX(${x}px) translateY(${y}px)`
+      })
+    }
+  </script>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js//slick.min.js"></script>
+  <script src="js/jquery.fancybox.min.js">
+
+  </script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
